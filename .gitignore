@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Environment
+.env
+
+# Private corpus — personal documents (e.g. purchased books); never commit
+corpus/private/
+
+# Private planning notes; never commit
+docs/private/
+
+# Node (frontend, later)
+node_modules/
+.next/
+
+# OS
+.DS_Store
+Thumbs.db
